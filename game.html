@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+
+<script src="js/script.js"></script>
+<link rel="stylesheet" type="text/css" href="css/style.css"></link>
+</head>
+
+<body  onload="initialValue()">
+
+<div id = "main">
+
+  <div id = "score"></div>
+
+  <section>
+
+    <div id = "wrapper1" class = "wrapper">
+      <div id = "imageDiv"> 
+        <p id = "response1" class = "response"></p>
+        <img id = "emo1" src = "images/normal.png" alt = "normal">
+      </div>
+      <div id="gameDiv">
+        <button class = "button" id = "button1" onclick = "addNumber()"></button>
+      </div>  
+    </div>
+
+    <div id = "wrapper2" class = "wrapper">
+      <div id = "imageDiv"> 
+        <p id = "response2" class = "response"></p>
+        <img id = "emo2" src = "images/normal.png" alt = "normal">
+      </div>
+      <div id = "gameDiv">
+        <button class = "button" id = "button2" onclick = "multiplyNumber()"></button>
+      </div>  
+    </div>
+
+    <div id = "wrapper3" class = "wrapper">
+      <div id = "imageDiv">
+        <p id = "response3" class = "response"></p>
+        <img id = "emo3" src = "images/normal.png" alt = "normal">
+      </div>
+      <div id = "gameDiv">
+        <button class = "button" id = "button3" onclick = "divideNumber()"></button>
+      </div>
+    </div>
+
+    <div id = "wrapper4" class = "wrapper">
+        <div id = "imageDiv">
+          <p id = "response4" class = "response"></p>
+          <img id = "emo4" src = "images/normal.png" alt = "normal">
+        </div>
+        <div id = "gameDiv">
+          <button class = "button" id = "button4" onclick = "minusNumber()"></button>
+        </div>
+      </div>  
+
+  </section>
+
+</div>
+</body>
+</html>
